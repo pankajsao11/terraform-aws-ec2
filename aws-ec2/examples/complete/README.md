@@ -54,7 +54,6 @@ No inputs.
 |------|-------------|
 | <a name="output_ec2_complete_arn"></a> [ec2\_complete\_arn](#output\_ec2\_complete\_arn) | The ARN of the instance |
 | <a name="output_ec2_complete_availability_zone"></a> [ec2\_complete\_availability\_zone](#output\_ec2\_complete\_availability\_zone) | The availability zone of the created instance |
-
 | <a name="output_ec2_complete_id"></a> [ec2\_complete\_id](#output\_ec2\_complete\_id) | The ID of the instance |
 | <a name="output_ec2_complete_instance_state"></a> [ec2\_complete\_instance\_state](#output\_ec2\_complete\_instance\_state) | The state of the instance. One of: `pending`, `running`, `shutting-down`, `terminated`, `stopping`, `stopped` |
 | <a name="output_ec2_complete_private_dns"></a> [ec2\_complete\_private\_dns](#output\_ec2\_complete\_private\_dns) | The private DNS name assigned to the instance. Can only be used inside the Amazon EC2, and only available if you've enabled DNS hostnames for your VPC |
