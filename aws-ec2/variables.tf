@@ -10,7 +10,9 @@ variable "ami" {
 }
 
 variable "instance_type" {
-  default = "t2.micro"
+  description = "The type of instance to start"
+  type        = string
+  default     = "t2.micro"
 }
 
 variable "name" {
@@ -47,4 +49,16 @@ variable "monitoring" {
   description = "If true, the launched EC2 instance will have detailed monitoring enabled"
   type        = bool
   default     = null
+}
+
+variable "tags" {
+  description = "A mapping of tags to assign to the resource"
+  type        = map(string)
+  default     = {}
+}
+
+variable "instance_tags" {
+  description = "Additional tags for the instance"
+  type        = map(string)
+  default     = {}
 }
