@@ -16,8 +16,6 @@ resource "aws_instance" "dev-ec2" {
 
   key_name   = var.key
   monitoring = var.monitoring
-  tags = {
-    Name = var.name
-    #here u can change instance name according to your preference
-  }
+  tags       = merge({ "Name" = var.name }, var.instance_tags, var.tags)
+  #here u can change instance name according to your preference
 }
