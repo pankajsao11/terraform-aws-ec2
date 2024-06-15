@@ -14,7 +14,7 @@ locals {
   tags = {
     Name    = local.name
     Example = local.name
-    #Repository = "https://github.com/terraform-aws-modules/terraform-aws-ec2-instance"
+    #Repository = "https://github.com/terraform-aws-ec2"
   }
 }
 
@@ -23,7 +23,7 @@ locals {
 ################################################################################
 
 module "ec2_complete" {
-  source = "../../"
+  #source = ".."
 
   name = local.name
 
