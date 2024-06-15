@@ -8,7 +8,7 @@ Terraform module which creates an EC2 instance on AWS.
 
 ```hcl
 module "ec2_instance" {
-  source  = "pankajs011/ec2-instance/aws"
+  source  = "pankajsao11/ec2-instance/aws"
 
   name = "single-instance"
 
