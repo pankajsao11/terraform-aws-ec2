@@ -8,7 +8,7 @@ Terraform module which creates an EC2 instance on AWS.
 
 ```hcl
 module "ec2_instance" {
-  source  = "pankajsao11/ec2-instance/aws"
+  source  = "pankajsao11/aws-ec2/aws"
 
   name = "single-instance"
 
@@ -27,7 +27,7 @@ module "ec2_instance" {
 
 ## Examples
 
-- [Complete EC2 instance](https://github.com/pankajsao11/terraform-aws-modules/tree/main/aws-ec2/examples/complete)
+- [Complete EC2 instance](https://github.com/pankajsao11/terraform-aws-ec2/tree/main/examples/complete)
 
 
 ## Providers
@@ -82,8 +82,8 @@ No modules.
 
 ## Authors
 
-Module is maintained by [Anton Babenko](https://github.com/pankajsao11).
+Module is maintained by [Pankaj Sahu](https://github.com/pankajsao11).
 
 ## License
 
-Apache 2 Licensed. See [LICENSE](https://github.com/pankajsao11/terraform-aws-modules/blob/main/aws-ec2/LICENSE) for full details.
+Apache 2 Licensed. See [LICENSE](https://github.com/pankajsao11/terraform-aws-ec2/blob/main/LICENSE) for full details.
